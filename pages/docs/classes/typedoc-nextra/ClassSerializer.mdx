@@ -1,0 +1,36 @@
+## ClassSerializer extends AbstractSerializer
+
+```typescript
+new ClassSerializer(declaration)
+```
+| Parameter | Type | Optional | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| declaration | DeclarationReflection | ❌ | - |
+
+## Properties
+### public  declaration: DeclarationReflection
+- [Source](https://github.com/neplextech/typedoc-nextra/blob/8fffbbb/src/serializers/AbstractSerializer.ts#L4)
+## Methods
+### public  parseMethod(decl): DocumentedClassMethod
+| Parameter | Type | Optional | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| decl | DeclarationReflection | ❌ | - |
+
+
+- [Source](https://github.com/neplextech/typedoc-nextra/blob/8fffbbb/src/serializers/ClassSerializer.ts#L145)
+### public  parseParameter(decl): DocumentedParameter
+| Parameter | Type | Optional | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| decl | TypeParameterReflection | ❌ | - |
+
+
+- [Source](https://github.com/neplextech/typedoc-nextra/blob/8fffbbb/src/serializers/ClassSerializer.ts#L167)
+### public  parseProperties(decl): DocumentedClassProperty
+| Parameter | Type | Optional | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| decl | DeclarationReflection | ❌ | - |
+
+
+- [Source](https://github.com/neplextech/typedoc-nextra/blob/8fffbbb/src/serializers/ClassSerializer.ts#L106)
+### public  serialize(): DocumentedClass
+- [Source](https://github.com/neplextech/typedoc-nextra/blob/8fffbbb/src/serializers/ClassSerializer.ts#L69)
